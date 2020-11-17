@@ -5,8 +5,19 @@
     <router-link to="/research">Research</router-link>|
     <router-link to="/consulting">Consulting</router-link>
 
+    <section class="hero is-light">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Safinaz Buyukguzel, PhD
+          </h1>
+          <h2 class="subtitle">
+            Primary subtitle
+          </h2>
+        </div>
+      </div>
+    </section>
     <div class="hero-foot">
-
       <div class="tabs is-left">
         <ul>
           <li class="is-active">
