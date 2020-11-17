@@ -4,6 +4,39 @@
     <router-link to="/cv">CV</router-link> |
     <router-link to="/research">Research</router-link>|
     <router-link to="/consulting">Consulting</router-link>
+
+    <div class="hero-foot">
+
+      <div class="tabs is-left">
+        <ul>
+          <li class="is-active">
+            <a>
+              <span class="icon is-small"><i class="mdi mdi-human-greeting" aria-hidden="true"></i></span>
+              <span>Home</span>
+            </a>
+          </li>
+          <li>
+            <a class="tabcolor">
+              <span class="icon is-small"><i class="mdi mdi-magnify" aria-hidden="true"></i></span>
+              <span>Research</span>
+            </a>
+          </li>
+          <li>
+            <a>
+              <span class="icon is-small"><i class="mdi mdi-fingerprint" aria-hidden="true"></i></span>
+              <span>CV</span>
+            </a>
+          </li>
+          <li>
+            <a class="tabcolor">
+              <span class="icon is-small"><i class="mdi mdi-lightbulb-on-outline" aria-hidden="true"></i></span>
+              <span>Consulting</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
   </div>
 
   <router-view/>
