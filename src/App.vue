@@ -30,7 +30,7 @@
   #nav a.router-link-exact-active {
     color: #42b983;
   }
-  
+
 
   p {
     font-family:noto sans jp, sans-serif ;
