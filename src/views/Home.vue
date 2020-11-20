@@ -1,7 +1,6 @@
 <template>
   <div class="home">
     <BusinessCard></BusinessCard>
-
   </div>
 </template>
 
@@ -15,3 +14,4 @@ export default {
   }
 }
 </script>
+
