@@ -40,4 +40,5 @@
     display: grid;
     grid-template-columns: 300px auto;
   }
+
 </style>
