@@ -1,5 +1,6 @@
 <template>
   <Papers></Papers>
+  <Activities></Activities>
 </template>
 
 <script>
