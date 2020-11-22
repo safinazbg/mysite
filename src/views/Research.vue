@@ -1,6 +1,5 @@
 <template>
-  <Papers></Papers>
-  <Activities></Activities>
+<ProExperiences></ProExperiences>
 </template>
 
 <script>
