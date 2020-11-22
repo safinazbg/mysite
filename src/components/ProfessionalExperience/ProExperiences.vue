@@ -1,12 +1,11 @@
 <template>
-<div class="proExperiences">
-  <ProExperienceCard
-      v-for="(experience, index) in experiences"
-      :key="index"
-      :experience="experience"
-  ></ProExperienceCard>
-
-</div>
+  <div class="proExperiences">
+    <ProExperienceCard
+        v-for="(item, index) in experiences"
+        :key="index"
+        :experience="item"
+    ></ProExperienceCard>
+  </div>
 </template>
 
 <script>
@@ -20,26 +19,61 @@
       return {
         experiences: [
           {
-            date: "2017-Present",
+            start: " September 2017",
             position: "PhD fellow",
-            affiliation: "University of Southern Denmark",
+            location1: "University of Southern Denmark",
+            location2: "Department of Design and Communication",
+            link: "http://www.sdu.dk/en/Om_SDU/Institutter_centre/Idk",
             description: "I work at the....",
-            image: "./assets/avatars/sdu_logo.png",
-      },
+            image: require("../../../public/avatars/sdu_logo.png"),
+         },
           {
-            date: "2018-Spring",
+            start: "April 2018",
+            end: "July 2018",
             position: "Research Intern",
-            affiliation: "Microsoft Research, Cambridge",
+            location1: "Microsoft Research, Cambridge",
+            location2: "Human Experience and Design",
+            link: "https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/",
             description: "In spring 2018 I had a amazing internship with Sean Rintel et al at Microsoft Research in Cambridge in the Human Experience and Design group. My stay culminated in a video about the Microsoft Teams features presented on",
-            image: "src/assets/avatars/microsoft.png",
+            image: require("../../../public/avatars/microsoft.png"),
+          },
+          {
+            start: 'March 2017',
+            end: 'March 2017',
+            position: 'Visiting Researcher',
+            location1: 'Naver Labs Europe',
+            location2: 'in Grenoble, France',
+            link: 'http://www.europe.naverlabs.com/',
+            description:"I visited...",
+            image: require(" ../../../public/avatars/naverLabs.svg"),
           },
           {
             date: "2015-2017",
             position: "Co-founder and vice-director",
-            affiliation: "HUMAN Research Center",
+            location1: "Hacettepe University",
+            location2: "HUMAN Research Center",
+            link:"http://www.human.hacettepe.edu.tr/",
             description: "I work at the....",
-            image: "./src/assets/avatars/human.png",
-
+            image: require("../../../public/avatars/human.png"),
+          },
+          {
+            start: 2013,
+            end: 2015,
+            position: 'Joint PhD and Visiting Researcher',
+            location1: 'University of Lausanne',
+            location2: 'Centre de linguistique et des sciences du langage, Switzerland',
+            link: 'https://www.unil.ch/clsl/fr/home.html',
+            description: "During my first PhD....",
+            image: require("../../../public/avatars/unil-logo.svg"),
+          },
+          {
+            start: 2009,
+            end: 2017,
+            position: 'Research Assistant in the',
+            location1: 'French Language Teaching Department',
+            location2: '@ Hacettepe University, Turkey',
+            description:"I worked....",
+            image: require("../../../public/avatars/hacettepe^2.png"),
           },
         ]
       }
