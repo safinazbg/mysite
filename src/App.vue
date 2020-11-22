@@ -1,18 +1,15 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/cv">CV</router-link> |
-    <router-link to="/research">Research</router-link>|
-    <router-link to="/consulting">Consulting</router-link>
+
 
     <section class="hero is-light">
       <div class="hero-body">
         <div class="container">
-          <h1 class="title">
+          <h1 class="title main">
             Safinaz Buyukguzel, PhD
           </h1>
           <h2 class="subtitle">
-            Primary subtitle
+            UX Designer
           </h2>
         </div>
       </div>
@@ -21,28 +18,28 @@
       <div class="tabs is-left">
         <ul>
           <li class="is-active">
-            <a>
-              <span class="icon is-small"><i class="mdi mdi-human-greeting" aria-hidden="true"></i></span>
+            <router-link to="/">
+              <!--span class="icon is-small"><i class="mdi mdi-human-greeting" aria-hidden="true"></i></span-->
               <span>Home</span>
-            </a>
+            </router-link>
           </li>
           <li>
-            <a class="tabcolor">
-              <span class="icon is-small"><i class="mdi mdi-magnify" aria-hidden="true"></i></span>
-              <span>Research</span>
-            </a>
-          </li>
-          <li>
-            <a>
-              <span class="icon is-small"><i class="mdi mdi-fingerprint" aria-hidden="true"></i></span>
+            <router-link to="/cv">
+              <!--              <span class="icon is-small"><i class="mdi mdi-magnify" aria-hidden="true"></i></span>-->
               <span>CV</span>
-            </a>
+            </router-link>
           </li>
           <li>
-            <a class="tabcolor">
-              <span class="icon is-small"><i class="mdi mdi-lightbulb-on-outline" aria-hidden="true"></i></span>
+            <router-link to="/research">
+              <!--              <span class="icon is-small"><i class="mdi mdi-fingerprint" aria-hidden="true"></i></span>-->
+              <span>Research</span>
+            </router-link>
+          </li>
+          <li>
+            <router-link to="/consulting">
+<!--              <span class="icon is-small"><i class="mdi mdi-lightbulb-on-outline" aria-hidden="true"></i></span>-->
               <span>Consulting</span>
-            </a>
+            </router-link>
           </li>
         </ul>
       </div>
@@ -54,6 +51,7 @@
 </template>
 
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
   #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -79,6 +77,9 @@
   p {
     font-family:noto sans jp, sans-serif ;
 
+  }
+  .main.title {
+    font-family: 'VT323';
   }
 
 </style>
