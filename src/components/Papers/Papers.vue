@@ -21,19 +21,19 @@
             title: "paper1",
             autor: "Safinaz Buyukguzel",
             content: "lorem ipsum dolor sit amet",
-            keywords: ["scrum meetings", "ethnomethodology", "conversation analysis","calculations"]
+            keywords: ["workplace studies", "scrum meetings", "ethnomethodology", "conversation analysis","calculations"]
           },
           {
             title: "paper2",
             author: "Safinaz Buyukguzel",
             content: "lorem ipsum...",
-            keywords: ["hybrid meetings", "daily scrum", "video-mediated collaboration"]
+            keywords: ["workplace studies", "hybrid meetings", "daily scrum", "video-mediated collaboration"]
           },
           {
             title: "paper3",
             author: "Safinaz Buyukguzel",
             content: "lorem ipsum....",
-            keywords:["scrum meetings", "reporting", "round-robin"]
+            keywords:[ "workplace studies", "scrum meetings", "reporting", "round-robin"]
           },
         ]
       }
