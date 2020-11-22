@@ -5,8 +5,7 @@
       <button class="button is-white">{{experience.date}}</button>
       <figure class="media-left">
         <p class="image is-64x64">
-          <img src="{{experience.image}}"/>
-
+          <img :src="experience.image"/>
         </p>
       </figure>
       <div class="media-content">
