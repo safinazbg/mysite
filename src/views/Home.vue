@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <BusinessCard></BusinessCard>
+    <WorkTimeline></WorkTimeline>
   </div>
 </template>
 
