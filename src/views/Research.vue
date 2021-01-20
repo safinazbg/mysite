@@ -1,5 +1,5 @@
 <template>
-<ProExperiences></ProExperiences>
+  <div>research</div>
 </template>
 
 <script>
