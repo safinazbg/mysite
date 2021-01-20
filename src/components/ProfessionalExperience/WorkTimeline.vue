@@ -3,52 +3,42 @@
 
 
     <div class="timeline is-centered">
-      <header class="timeline-header">
-        <span class="tag is-medium is-primary">Start</span>
-        <div class="box">
-          <article class="media">
-            <div class="media-left">
-              <figure class="image is-64x64">
-                <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
-              </figure>
-            </div>
-            <div class="media-content">
-              <div class="content">
-                <p>
-                  <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>
-                  <br>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
-                </p>
-              </div>
-            </div>
-          </article>
-        </div>
-      </header>
+      <div class="timeline-content">
+        <p>Timeline content - Can include any HTML element</p>
+      </div>
       <div class="timeline-item">
         <div class="timeline-marker is-image is-32x32">
           <img src="../../../public/avatars/sdu_logo.png" height="221" width="277"/>
         </div>
         <div class="timeline-content">
-          <p class="heading">January 2016</p>
-          <p>Timeline content - Can include any HTML element</p>
+          <p class="heading">September 2017 - Present</p>
+          <div class="box">
+            <article class="media">
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>PhD Fellow</strong> <small>@johnsmith</small> <small>31m</small>
+                    <br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
         </div>
       </div>
       <div class="timeline-item">
         <div class="timeline-marker is-image is-32x32">
-          <img src="../../../public/avatars/microsoft.png" height="128"
-                                                       width="128"/>
+          <img src="../../../public/avatars/microsoft.png" height="128" width="128"/>
         </div>
         <div class="timeline-content">
           <p class="heading">February 2016</p>
           <p>Timeline content - Can include any HTML element</p>
         </div>
       </div>
-      <header class="timeline-header">
-        <span class="tag is-primary">2017</span>
-      </header>
-      <div class="timeline-item is-danger">
-        <div class="timeline-marker is-danger is-icon">
-          <i class="fa fa-flag"></i>
+      <div class="timeline-item">
+        <div class="timeline-marker is-image is-32x32">
+          <img src="../../../public/avatars/human.png" height="104" width="250"/>
         </div>
         <div class="timeline-content">
           <p class="heading">March 2017</p>
