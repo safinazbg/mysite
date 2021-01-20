@@ -1,17 +1,17 @@
 <template>
   <div class="home">
-    <BusinessCard></BusinessCard>
-    <WorkTimeline></WorkTimeline>
+  <div class="container">
+    <LandingPage></LandingPage>
+  </div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import BusinessCard from '../components/BusinessCard'
+import LandingPage from "@/components/mainPage/LandingPage";
 export default {
   name: 'Home',
   components: {
-    BusinessCard,
+    LandingPage
   }
 }
 </script>
