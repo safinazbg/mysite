@@ -1,10 +1,17 @@
 <template>
-  <div class="cv">CV</div>
+  <div class="cv">
+    <AboutMe></AboutMe>
+
+  </div>
 </template>
 
 <script>
+import AboutMe from "@/components/mainPage/AboutMe";
   export default {
-    name: "CV"
+    name: "CV",
+    components: {
+      AboutMe
+    }
   }
 </script>
 
