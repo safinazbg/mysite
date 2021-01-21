@@ -1,10 +1,14 @@
 <template>
-  <div>research</div>
+  <div>
+    <Boxes></Boxes>
+  </div>
 </template>
 
 <script>
-  export default {
+export default {
     name: "Research",
+    components: {
+    }
 
   }
 </script>
