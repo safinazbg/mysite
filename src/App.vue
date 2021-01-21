@@ -1,20 +1,28 @@
 <template>
-<div id="gridLayout">
-  <div>
-    <ul class="uk-iconnav uk-iconnav-vertical">
-      <li @click="$router.push('/')">
-          <a uk-icon="icon: home"></a>
-      </li>
-      <li @click="$router.push('/research')"><a uk-icon="icon: file-edit"></a></li>
-      <li @click="$router.push('/cv')"><a uk-icon="icon: user"></a></li>
-      <li><a uk-icon="icon: settings"></a></li>
-    </ul>
+  <div id="gridLayout">
+    <div id="nav" class="uk-padding-small">
+      <ul class="uk-iconnav uk-iconnav-vertical">
+        <li @click="$router.push('/')">
+            <a uk-icon="icon: home"></a>
+        </li>
+        <li @click="$router.push('/research')"><a uk-icon="icon: file-edit"></a></li>
+        <li @click="$router.push('/cv')"><a uk-icon="icon: user"></a></li>
+        <li><a uk-icon="icon: settings"></a></li>
+      </ul>
+    </div>
+    <div id="body" class="uk-padding">
+      <router-view></router-view>
+    </div>
   </div>
-  <div>
-    <router-view></router-view>
-  </div>
-</div>
 </template>
+
+<script>
+export default {
+  name: 'App',
+  components: {
+  }
+  };
+</script>
 
 
 <style>
@@ -41,8 +49,17 @@ em {
    display: grid;
    grid-template-columns: 50px 1fr;
  }
- #gridLayout > :first-child {
-   background-color: #e3dde3;
+ #nav {
+   display: flex;
+   justify-content: center;
+   background-color: #aec4bc;
+ }
+
+ #nav svg {
+   color: black;
+ }
+ #body {
+   background-image: url('assets/safi_px.png');
+   background-size: cover;
  }
 </style>
-
