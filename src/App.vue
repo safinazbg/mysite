@@ -40,6 +40,11 @@ export default {
 h1, h2, h3, h4, h5, h6, em {
   font-family: Roboto-bold!important;
 }
+a {
+  color: #2fb887 !important;
+  font-weight: normal;
+  text-decoration: underline!important;
+}
 em {
   text-decoration-style: none!important;
   color: #4f5452 !important;
@@ -52,7 +57,7 @@ em {
  #nav {
    display: flex;
    justify-content: center;
-   background-color: #d8f8ec;
+   background-color: #eeeeee;
  }
 
  #nav svg {
