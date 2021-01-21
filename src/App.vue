@@ -52,7 +52,7 @@ em {
  #nav {
    display: flex;
    justify-content: center;
-   background-color: #aec4bc;
+   background-color: #d8f8ec;
  }
 
  #nav svg {
