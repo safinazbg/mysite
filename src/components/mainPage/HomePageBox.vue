@@ -35,7 +35,7 @@ name: "HomePageBox"
 
 <style>
 .small {
-  width: 700px;
+  width: 800px;
 }
 
 .couleur {
