@@ -18,6 +18,24 @@
 
 
 <style>
+@font-face {
+  font-family: Roboto;
+  src: url("assets/Roboto/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: Roboto-bold;
+  src: url("assets/Roboto/Roboto-Bold.ttf")
+}
+* {
+  font-family: Roboto!important;
+}
+h1, h2, h3, h4, h5, h6, em {
+  font-family: Roboto-bold!important;
+}
+em {
+  text-decoration-style: none!important;
+  color: #4f5452 !important;
+}
  #gridLayout {
    height: 100vh;
    display: grid;
