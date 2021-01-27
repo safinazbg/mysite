@@ -1,16 +1,15 @@
 <template>
   <div class="cv">
-    <AboutMe></AboutMe>
-
+    <Timeline/>
   </div>
 </template>
 
 <script>
-import AboutMe from "@/components/mainPage/AboutMe";
+import Timeline from "@/components/Timeline";
   export default {
     name: "CV",
     components: {
-      AboutMe
+      Timeline,
     }
   }
 </script>
