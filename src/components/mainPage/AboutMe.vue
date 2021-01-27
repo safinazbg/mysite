@@ -10,7 +10,7 @@
     <div>
       <div class="uk-card-body">
         <h3 class="uk-card-title">About Me</h3>
-        <p>I am a researcher, user experience designer, and front-end developer. I research the ways in which software development teams coordinate and collaborate in face to face and hybrid settings. I design and develop user friendly web applications. I am currently about to finish my second PhD at the <a href="https://www.sdu.dk/"> University of Southern Denmark </a> in Design, IT, and Communication. </p>
+        <p>I am a researcher, user experience designer, and front-end developer. I <a> research </a> the ways in which software development teams coordinate and collaborate in face to face and hybrid settings. I <a> design </a> and <a> develop </a>  user friendly web applications. I am currently about to finish my second PhD at the <a href="https://www.sdu.dk/"> University of Southern Denmark </a> in Design, IT, and Communication. </p>
 
         <ul class="uk-iconnav">
           <li><a href="#" uk-icon="icon: linkedin"></a></li>
