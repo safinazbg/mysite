@@ -33,4 +33,9 @@
 </script>
 
 <style scoped>
+  .timeline {
+    display: grid;
+    grid-column-gap: .5rem;
+    grid-template-columns: 1fr 1px 1fr;
+  }
 </style>
