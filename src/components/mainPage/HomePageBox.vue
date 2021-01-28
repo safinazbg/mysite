@@ -6,10 +6,10 @@
           <canvas width="600" height="400"></canvas>
         </div>
         <div class="couleur">
-          <div class="uk-card-body">
-            <h3 class="uk-card-title">Research</h3>
+          <router-link class="research" to="/research"><div class="uk-card-body">
+           <h3 class="uk-card-title">Research</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-          </div>
+          </div> </router-link>
         </div>
       </div>
       <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
@@ -43,4 +43,8 @@ name: "HomePageBox"
   background-color: #f3f3f3;
 }
 
+.research {
+  color: #666!important;
+  text-decoration: none!important;
+}
 </style>
