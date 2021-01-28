@@ -7,10 +7,15 @@
 <script>
 export default {
     name: "Research",
-    components: {
+    data () {
+      return {
+        event: null
+      }
+    },
+    created() {
+    //  fetch event by id and set our local data
     }
-
-  }
+}
 </script>
 
 <style scoped>
