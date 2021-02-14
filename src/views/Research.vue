@@ -1,12 +1,16 @@
 <template>
   <div>
-    <Boxes></Boxes>
+    <Activities></Activities>
   </div>
 </template>
 
 <script>
+import Activities from "@/components/Activities";
 export default {
     name: "Research",
+  components: {
+      Activities
+  },
     data () {
       return {
         event: null
