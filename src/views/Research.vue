@@ -17,7 +17,7 @@ export default {
       }
     },
     created() {
-    //  fetch event by id and set our local data
+    //  fetch event by id and set my local data
     }
 }
 </script>
