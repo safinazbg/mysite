@@ -40,7 +40,7 @@
             title: 'not body',
           }, {
             body: 'The other PhD at uni',
-            date: '2009-present',
+            date: '2011-2016',
             logoSrc: './avatars/hacettepe^2.png',
             title: 'not body',
           },
